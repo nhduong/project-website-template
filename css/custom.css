@@ -1,11 +1,22 @@
 /*************************************************************************
- * Your custom CSS file
+ * This css file is for your own style.
  *************************************************************************/
 
-.custom-dropdown {
-  width: 240px;
+#me {
+  width: 180px;
+  border-radius: 50%;
 }
 
-.custom-textbox {
-  width: 240px;
+.flex-item-stretch-6 {
+  flex: 1 auto;
+}
+
+.max-width-600 {
+  max-width: 600px;
+}
+
+@media screen and (min-width: 900px) {
+  .flex-item-stretch-6 {
+    flex: 5.5;
+  }
 }
